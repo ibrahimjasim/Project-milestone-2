@@ -99,3 +99,10 @@ header>h1 {
     background-color: #5BB500;
 }
 
+#message {
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #3a3a3a;
+    font-weight: bold;
+    margin-top: 20px;
+}
