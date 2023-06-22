@@ -18,7 +18,7 @@ header {
 }
 
 header>h1 {
-    color: white ;
+    color: white;
     text-align: center;
     font-family: "Bangers", sans-serif;
     font-size: 100px;
@@ -113,7 +113,8 @@ header>h1 {
 
 .r {
     text-align: center;
-    padding: 400px;
+    padding-top: 500px;
+
 
 }
 
@@ -128,4 +129,52 @@ header>h1 {
     color: #8FB035;
     padding: 5px;
 
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+    .r {
+        text-align: center;
+
+
+    }
+
+    #rules {
+        color: white;
+        font-size: 30px;
+        font-family: "Bangers", sans-serif;
+    }
+
+    #r-detals {
+        font-size: 20px;
+        color: #8FB035;
+
+
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .r {
+        text-align: center;
+
+
+    }
+
+    #rules {
+        color: white;
+        font-size: 30px;
+        font-family: "Bangers", sans-serif;
+    }
+
+    #r-detals {
+        font-size: 20px;
+        color: #8FB035;
+
+
+
+
+    }
 }
