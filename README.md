@@ -1,39 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock • Paper • Scissors
+Rock - Paper - Scissors, also known as RPS, is a simple and universally recognized hand game that has been enjoyed by people across cultures and generations for centuries. While it's precise origins remain a mystery, the game's basic principles can be traced back to ancient times.
+![am i](https://github.com/ibrahimjasim/Project-milestone-2/assets/127301769/ee22d690-0a47-4729-8979-565d1d6c4104)
+## Features 
+* #### Header
 
-Welcome,
+  * The header Featureed the game name, with a playful and comic book inspired font and color that remind us of the nostalgic arcade games of old.
+  ![WS header](https://github.com/ibrahimjasim/Project-milestone-2/assets/127301769/f5e1fb5f-9e31-461a-8cc5-686d1d2c2e2f)
+ 
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+* #### Score board
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+   * The score bord made with a simple design that shows the User vs Comp. This part is also written with the comic book inspired font, appealing to the childish aspect of the game.
+   * Each win adds a x+1 to the scoreboard of the winning player.
+   * Maximum wins are limited to 5 per game round, after which the game is over. 
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+  ![scorebord](https://github.com/ibrahimjasim/Project-milestone-2/assets/127301769/acc3e77a-82f0-4b60-864c-906537b9f90a)
 
-`python3 -m http.server`
+* #### Selecting the next move
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+   * This sections contains three variables of which only one can be selected by the User at a time.
+   * They are illustrated in the form of comic/cartoon inspired gloves/hands depicting the gesture of rock, paper and scissors.
+   * While the user hoovers above one of the selectable options, the position of the cursor is highlighted by a blue background.
+     
+   ![Screenshot 2023-06-22 145120](https://github.com/ibrahimjasim/Project-milestone-2/assets/127301769/dd214b55-a6d3-410c-8f84-0f9766400aab)
+  
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  
+ * #### Reset button
 
-`http_server`
+   * A simple button with a red background that allows the user to reset the game manually at anytime (before the game is over by number of wins i.e. 5).
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+     
+    ![reset button](https://github.com/ibrahimjasim/Project-milestone-2/assets/127301769/410216a7-07c8-4f11-a575-fbdd176894d7)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+     
+  
+  
+ * #### Footer
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+   * The footer contains the very simple and straightforward rules to the game.
 
-To log into the Heroku toolbelt CLI:
+   ![Screenshot 2023-06-22 145159](https://github.com/ibrahimjasim/Project-milestone-2/assets/127301769/452f7b0a-5497-4f9c-84ef-6d8c0c7faeb9)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ * #### Testing
 
----
+   * I tested the game on different browsers : Google Chrome, Firerfox, Opera.
+   * I tested the game on a multiple devices.
+   * I confirmed the game run smoothly and accessible by runing it through lighthouse in devtools.
+      ![lighthouse](https://github.com/ibrahimjasim/Project-milestone-2/assets/127301769/2a4945ef-1af0-4258-b7e3-9807b474d6cf)
 
-Happy coding!
+ * #### Validator Testing
+ * HTML
+    * No errors where returned when passing throgh the  W3c validator
+ * CSS
+    * No errors where returned when passing throgh the  (Jigsaw) validator
+ * JavaScript
+    * No errors where returned when passing throgh JSHint JavaScript Validator
+  
+
+* #### Deployment
+* The site was deployed to GitHub pages.
+
+
+* #### Media
+* The images for the hand gestures were taking from https://www.freepik.com/vectors/hand-clipart
+* The font for the website were taking from https://fonts.google.com/
