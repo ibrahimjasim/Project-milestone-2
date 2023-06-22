@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 player = event.target.getAttribute("data-option");
                 computerTurn();
                 const result = checkWinner();
-                const resultMessage = ` Comp picked:: ${computer} -- ${result}`;
+                const resultMessage = ` Comp picked: ${computer} -- ${result}`;
                 resultText.textContent = resultMessage;
                 if (result === "You Win!") {
                     playerScore += 1;

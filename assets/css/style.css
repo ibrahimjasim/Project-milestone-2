@@ -9,23 +9,23 @@
 }
 
 body {
-    background-color: #F1C284;
+    background-color: #091B1E;
 }
 
 header {
-    background-color: #5BB500;
+    background-color: #8FB035;
     padding: 20px;
 }
 
 header>h1 {
-    color: #3a3a3a;
+    color: white;
     text-align: center;
     font-family: "Bangers", sans-serif;
     font-size: 100px;
 }
 
 .score-bord {
-    border: 5px dashed #3a3a3a;
+    border: 5px dashed #8FB035;
     width: 300px;
     margin: 30px auto;
     color: white;
@@ -68,7 +68,7 @@ header>h1 {
 
 .result {
     font-size: 25px;
-    color: #3a3a3a;
+    color: #FA8B3E;
 
 }
 
@@ -105,8 +105,27 @@ header>h1 {
 #message {
     text-align: center;
     font-family: "Bangers", sans-serif;
-    color: #3a3a3a;
+    color: #8FB035;
     font-weight: bold;
     margin-top: 30px;
     font-size: 70px;
+}
+
+.r {
+    text-align: center;
+    padding: 400px;
+
+}
+
+#rules {
+    color: white;
+    font-size: 30px;
+    font-family: "Bangers", sans-serif;
+}
+
+#r-detals {
+    font-size: 20px;
+    color: #8FB035;
+    padding: 5px;
+
 }
