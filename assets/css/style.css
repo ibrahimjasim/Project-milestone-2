@@ -113,7 +113,8 @@ header>h1 {
 
 .r {
     text-align: center;
-    padding-top: 500px;
+    padding-top: 400px;
+
 
 
 }
@@ -132,49 +133,26 @@ header>h1 {
 
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+#reset {
 
 
-    .r {
-        text-align: center;
+    background-color: red;
+    color: white;
+    font-family: "Bangers", sans-serif;
+    padding: 15px;
+    font-weight: 300;
+    font-size: 15px;
+    border-radius: 60%;
 
-
-    }
-
-    #rules {
-        color: white;
-        font-size: 30px;
-        font-family: "Bangers", sans-serif;
-    }
-
-    #r-detals {
-        font-size: 20px;
-        color: #8FB035;
-
-
-    }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+.reset-btn {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 50px;
 
-    .r {
-        text-align: center;
-
-
-    }
-
-    #rules {
-        color: white;
-        font-size: 30px;
-        font-family: "Bangers", sans-serif;
-    }
-
-    #r-detals {
-        font-size: 20px;
-        color: #8FB035;
-
-
-
-
-    }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+@media (min-width: 320px) and (max-width: 480px) {}

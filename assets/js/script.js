@@ -3,11 +3,21 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const computerText = document.querySelector("#computerText");
     const resultText = document.querySelector("#resultText");
     const choiceBtns = document.querySelectorAll(".choiceBtn");
+    document.getElementById("reset").addEventListener("click", function () {
+        location.reload();
+
+
+
+
+
+
+    });
 
     let player;
     let computer;
     let computerScore = 0;
     let playerScore = 0;
+
 
     choiceBtns.forEach((button) =>
         button.addEventListener("click", (event) => {
